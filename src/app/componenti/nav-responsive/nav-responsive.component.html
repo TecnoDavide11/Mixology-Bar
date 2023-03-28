@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<button mat-button [matMenuTriggerFor]="menu"><h1><i class="fa-solid fa-bars"></i></h1></button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item><a routerLink="/Menu"><i class="fa-solid fa-martini-glass-citrus"></i>Menu</a></button>
+  <button mat-menu-item><a routerLink="/About"><i class="fa-solid fa-address-card"></i>About Us</a></button>
+  <button mat-menu-item><a routerLink="/Contact"><i class="fa-solid fa-message"></i>Contact</a></button>
+</mat-menu>

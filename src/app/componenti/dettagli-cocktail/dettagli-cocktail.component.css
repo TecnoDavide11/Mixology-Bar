@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+
+}
+
+.contenitore{
+  padding-top: 10px;
+  min-height: 100vh;
+  background: url('/assets/wineglass-with-rose-smoky-liquor.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.cont2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+#contenitore2{
+  max-height: 600px;
+  max-width: 600px;
+  padding: 30px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+
+}
+
+
+#descrizione{
+  max-width: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+h2{
+font-family: 'Shalimar', cursive;
+font-family: 'Poiret One', cursive;
+font-size: 30px;
+padding: 15px;
+}
+
+span{
+  font-size: 45px;
+}
+
+
+@media (max-width:500px){
+  h2{
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  span{
+    font-size: 35px;
+  }
+
+
+  #descrizione{
+    width: 300px;
+  }
+}
+
+
+@media (max-width:360px){
+  h2{
+    font-size: 15;
+    padding: 5px;
+  }
+
+  span{
+    font-size: 25px;
+  }
+
+
+  #descrizione{
+    width: 300px;
+  }
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenitore{
+  padding-top:10px ;
+  min-height: 100vh;
+  background:url('/assets/about.jpg');
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.about{
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.cont1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top:10px;
+  padding-left:60px ;
+  width: 45%;
+}
+
+.vuoto{
+  width: 45%;
+}
+
+h1{
+  font-size: 45px;
+  font-family: 'Poiret One', cursive;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 4vh;
+}
+
+
+
+@media(max-width:1000px){
+
+  h1{
+    font-size: 35px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 4vh;
+  }
+
+}
+
+@media(max-width:920px){
+
+
+  .contenitore{
+    min-height: 100vh;
+    background:url('/assets/lemon2.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .vuoto{
+    width: 0%;
+  }
+
+
+
+.cont1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 80%;
+  padding-left:0px ;
+  margin-top: 50px;
+}
+
+
+.about{
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding-left:0px ;
+}
+
+
+h1{
+  font-size: 35px;
+  font-family: 'Poiret One', cursive;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 3vh;
+}
+
+
+}
+
+
+
+@media(max-width:550px){
+
+  .contenitore{
+    min-height: 100vh;
+    background:url('/assets/lemon2.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cont1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    padding-left:0px ;
+    margin-top: 15px;
+  }
+
+
+  h1{
+    font-size: 32px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 3vh;
+  }
+
+
+}
+
+
+@media(max-width:400px){
+
+  .cont1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    padding-left:0px ;
+    margin-top: 10px;
+  }
+
+  .about{
+    min-height: 120vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding-left:0px ;
+  }
+}

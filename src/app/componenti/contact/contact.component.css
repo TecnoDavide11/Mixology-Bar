@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.contenitore{
+  padding-top:10px ;
+  background:url('/assets/bicc.jpg');
+  color:white;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+}
+
+.contatti{
+  height: 100%;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+
+li{
+  list-style: none;
+  padding-top: 20px;
+}
+
+h3{
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}
+
+span{
+  font-size: 45px;
+}
+
+i{
+  padding-left: 20px;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+
+@media( max-width:830px){
+
+  .contenitore{
+    padding-top:10px ;
+    background:url('/assets/bic2.jpg');
+    color:white;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+  }
+
+  .contatti{
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+}
+
+
+@media( max-width:550px){
+
+  .contatti{
+    height: 100%;
+    padding-top: 15%;
+    padding-left: 0px;
+  }
+
+
+h3{
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+}
+
+span{
+  font-size: 35px;
+}
+
+}
+
+
+
+@media( max-width:400px){
+
+  .contatti{
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 0px;
+  }
+
+
+h3{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+}
+
+span{
+  font-size: 25px;
+}
+
+}

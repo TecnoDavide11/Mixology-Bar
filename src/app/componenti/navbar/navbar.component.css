@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+h1:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.logo{
+  margin-left: 3%;
+}
+
+.navlink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+li{
+  list-style: none;
+  margin-right: 60px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+h4{
+  font-size: 25px;
+  font-weight: 800;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+}
+
+
+
+a:hover{
+  color:white;
+}
+
+.nav{
+  display: none;
+}
+
+
+@media (max-width:830px){
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .navlink{
+    display: none;
+  }
+
+  .header{
+    margin: 0px 30px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .logo{
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width:890px){
+  .logo{
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width:500px){
+
+  .logo{
+    margin-left: -10px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+}

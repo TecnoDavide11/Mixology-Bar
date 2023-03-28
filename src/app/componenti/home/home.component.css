@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenitore{
+  padding-top: 10px;
+  background-image: url('/assets/top-view-drink-with-lemon-slices-spearmint.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
+
+.contenitore2{
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.titolo{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  padding-top: 65px ;
+  padding-left: 65px;
+}
+
+h1{
+  font-size: 155px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+p{
+  margin-top: 40px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+
+
+@media (max-width:1300px){
+
+  p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+  }
+
+
+}
+
+
+
+@media (max-width:1100px){
+
+h1{
+  font-size: 125px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+p{
+  margin-top: 40px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+}
+
+
+
+@media (max-width:1000px){
+
+  .contenitore{
+    padding-top: 10px;
+    background-image: url('/assets/lemon2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+  }
+
+  .titolo{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding-top: 45px ;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 85px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+  }
+
+  p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+  }
+
+
+
+}
+
+
+
+@media (max-width:830px){
+
+.titolo{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding-top: 45px ;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+
+
+h1{
+  font-size: 90px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+p{
+  margin-top: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+}
+
+
+
+
+@media (max-width:450px){
+
+.titolo{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding-top: 45px ;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+
+h1{
+  font-size: 70px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+p{
+  margin-top: 30px;
+  font-size: 10px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+
+}
+
+
+@media (max-width:350px){
+
+  .titolo{
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      align-items:center;
+      padding-top: 45px ;
+      padding-left: 0px;
+      width: 100%;
+    }
+
+
+  h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+  }
+
+  p{
+    margin-top: 30px;
+    font-size: 8px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+  }
+
+
+  }
+
+
+
+
+/* "Scopri il nostro bar segreto e lasciati trasportare in un'esperienza unica." */
